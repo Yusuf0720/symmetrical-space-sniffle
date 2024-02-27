@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link 
+      rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+      crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titan+One%3A400"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dela+Gothic+One%3A400"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Flex%3A400%2C500%2C700"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A200%2C300%2C400%2C500%2C700"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lalezar%3A400"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A200%2C300%2C400%2C700"/>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+         @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+         
+        .nav-item a {
+    color: white;
+    font-size: 20px;
+    font-family: "Inter";
+    }
+   
+    
+   .navbar-nav > li{
+    padding-top:70px;
+    height: 250px;
+    padding-right:75px;
+}
+.section-title-hr {
+  width: 100%;
+  height: 2px;
+  border: 1px solid rgba(219, 161, 17, 1);
+  background-color: rgba(219, 161, 17, 1);
+  display: block;
+  opacity: 1;
+  margin-top: -75px;
+  
+}
+.section-title-hr1 {
+  width: 48px;
+  height: 2px;
+  border: 1px solid rgba(219, 161, 17, 1);
+  background-color: rgba(219, 161, 17, 1);
+  display: block;
+  opacity: 1;
+  
+}
+.card{
+  transition: all 0.3s;
+}
+.card:hover{
+  transform: scale(1.10);
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col md-3">
+                <div class="class">
+                    <img src="images/Chelsea_FC 3.jpg" style="margin-top: 25px;">
+                </div>
+            </div>
+            <div class="col md-6">
+                <nav class="navbar navbar-expand-sm   ">
+                    <div class="container-fluid ">
+                      <ul class="navbar-nav ">
+                        <li class="nav-item">
+                          <a class="nav-link"style="color:black;" href="chelsea-site-homepg.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" style="color:rgba(219, 161, 17, 1) ;"href="News.html">NEWS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" style="color:black;" href="Players.html">PLAYERS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" style="color:black;" href="History.html">HISTORY</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+            <div class="col md-3">
+                <div class="class">
+                    <img src="images/Group 24.jpg" style="margin-top: -10px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="section-title-hr">
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card text-bg-dark" style="width: 1300px; height: 750px; border-radius: 30px; color: white; border-color: white; transform: scale(1.0);">
+                    <img src="images/DTW_5073 1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay" style="margin-top: 600px; margin-left: 100px;">
+                      <h1 class="card-title"style=" font-size: 40px; font-family: 'Dela Gothic One', sans-serif;">Chelsea prepare for the Carabao Cup Final</h1>
+                    </div>
+                  </div>
+                
+                    
+                    
+
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="container">
+            <div class="row">
+                <div class="col offset-md-4" style="margin-top: 150px;">
+                    <h1 style="font-size: 50px; font-family: 'Dela Gothic One', sans-serif; color: rgba(3, 70, 148, 1);">Latest News</h1>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container">
+        <hr class="section-title-hr offset-md-1 " style="width: 1200px; margin-top: 25px; margin-left: 50px;">
+    </div>
+    <div class="container">
+      <div class="card mb-3" style="width: 1200px; height: 750px; border-radius: 30px;  border-color: white; margin-left: 50px; margin-top: 100px; box-shadow:  30px 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="images/wembley-arch-helicopter-view-by-night_800 1.jpg"  >
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 30px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 50px;">CARABAO CUP FINAL WEEK IS HERE FOR CHELSEA</h5>
+                
+                <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 35px ; margin-left: 50px; margin-top: 50px; margin-right: 75px; line-height: 41px;">We are now just 2 sleeps away from Chelsea facing Liverpool in the 2024 Carabao Cup final, here is your guide to a huge week for the Blues.</p>
+                <div class="row" style="margin-top: 175px;">
+                <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; padding-top: 50px; margin-right: 50px; word-spacing: 10px;">23/2 | news</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col md-6">
+                  <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 50px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                  <img src="images/GettyImages-1770415895.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                      <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 0px; margin-top: 25px; text-transform: uppercase;">Colwill: Fulfilling Wembley dream</h5>
+                      
+                      <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 20px; margin-right: 30px; line-height: 116.7%;">Levi Colwill was 11 years old when he first walked out onto the Wembley pitch. On that occasion, he was flanked by three of his uncles. On Sunday, he will do so alongside his Chelsea team-mates.</p>
+                      <div class="row" style="margin-top: 10px;">
+                      <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 25px; margin-right: 50px; word-spacing: 10px;">20/2 | news</small></p>
+                  </div>
+                </div> 
+              </div>
+          </div>
+              <div class="col md-6"> 
+                  <div class="col md-6">
+                      <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 25px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                      <img src="images/GOAL_-_Blank_WEB_-_Facebook_-_2023-08-22T113051.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                          <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 25px; margin-top: 25px; text-transform: uppercase;">Sterling: Take the point but we could have won</h5>
+                          
+                          <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 25px; line-height: 116.7%;">Raheem Sterling was full of praise for Chelsea’s showing at Manchester City but felt we could have left the Etihad Stadium with all three points on another day.</p>
+                          <div class="row" style="margin-top: 50px;">
+                          <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 25px; margin-right: 50px; word-spacing: 10px;">18/2 | news</small></p>
+                      </div>
+                    </div> 
+                  </div>
+              </div>
+              </div>
+          
+      </div>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col md-6">
+                  <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 50px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                  <img src="images/GettyImages-1715267585.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                      <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px; text-transform: uppercase;">Disasi proud of display at City </h5>
+                      
+                      <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 75px; line-height: 116.7%;">Axel Disasi believes Chelsea's disciplined and tireless performance in the 1-1 draw with Manchester City is proof the Blues have grown as a team.</p>
+                      <div class="row" style="margin-top: 50px;">
+                      <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 25px; margin-right: 50px; word-spacing: 10px;">17/2 | news</small></p>
+                  </div>
+                </div> 
+              </div>
+          </div>
+              <div class="col md-6"> 
+                  <div class="col md-6">
+                      <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 25px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                      <img src="images/GOAL_-_Blank_WEB_-_Facebook_-_2023-12-03T135539.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                          <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px; text-transform: uppercase;">Palmer excited for Etihad return</h5>
+                          
+                          <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 1px; line-height: 116.7%;">Cole Palmer admits it will be strange to be back at Manchester City as a member of the visiting team when Chelsea travel to the Etihad Stadium on Saturday.</p>
+                          <div class="row" style="margin-top: 50px;">
+                          <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 25px; margin-right: 50px; word-spacing: 10px;">16/2 | news</small></p>
+                      </div>
+                    </div> 
+                  </div>
+              </div>
+              </div>
+          
+      </div>
+      </div>
+    <div class="container">
+      <p>
+          
+        <button class="btn btn-default hide-me" data-toggle="collapse" data-target="#collapseExample3" id="collapseExample3" style="width:100px ; height: 35px; font-size: 13px; color: black; border-color: rgba(219, 161, 17, 1); border-radius: 12px; margin-top: 50px; margin-left: 625px; ">View More</button>
+          
+        </p>
+        <div class="collapse" id="collapseExample3">
+    <div class="container">
+    <div class="card mb-3" style="width: 1200px; height: 750px; border-radius: 30px;  border-color: white; margin-left: 50px; margin-top: 100px; box-shadow:  30px 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img src="images/Third-Kit_23-24_EARLY-ACCESS_News-Article_Image_2880x1620_03_V1 1.jpg"  >
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+              <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 30px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 50px;">CHELSEA'S THIRD KIT IS 25% OFF - FOR A LIMITED TIME ONLY!</h5>
+              
+              <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 35px ; margin-left: 50px; margin-top: 50px; margin-right: 75px; line-height: 41px;">Our third kit is on sale until Sunday giving Blues supporters the chance to pick up the stunning Eton Blue shirt for a reduced price, with Chelsea set to wear it in our next match.</p>
+              <div class="row" style="margin-top: 150px;">
+              <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; padding-top: 50px; margin-right: 50px; word-spacing: 10px;">15/2 | news</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col md-6">
+                <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 50px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                <img src="images/0_Enzo-Fernandez-7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                    <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px;">ENZO: 'THINGS ARE COMING TOGETHER'</h5>
+                    
+                    <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 25px; line-height: 116.7%;">Enzo had two options when the ball broke to Palmer in the dying stages of Monday night's game at Crystal Palace. He could either sit back and help Chelsea see out a narrow victory or burst forward and end the evening in style.</p>
+                    <div class="row" style="margin-top: -10px;">
+                    <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 25px; margin-right: 50px; word-spacing: 10px;">14/2 | news</small></p>
+                </div>
+              </div> 
+            </div>
+        </div>
+            <div class="col md-6"> 
+                <div class="col md-6">
+                    <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 25px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                    <img src="images/GettyImages-2007650332-1140x760.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                        <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 25px; margin-top: 25px;">PALMER ON AN IMPORTANT WIN AND A BIG BOOST</h5>
+                        
+                        <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 25px; line-height: 116.7%;">Cole Palmer was pleased to make it back-to-back wins with victory at Crystal Palace and believes the togetherness within this Chelsea squad is starting to make its presence felt on the pitch.</p>
+                        <div class="row" style="margin-top: 25px;">
+                        <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 25px; margin-right: 50px; word-spacing: 10px;">13/2 | news</small></p>
+                    </div>
+                  </div> 
+                </div>
+            </div>
+            </div>
+        
+    </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col md-6">
+                <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 50px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                <img src="images/TELEMMGLPICT000366272866_17078285807640_trans_NvBQzQNjv4BqHgTv8HPfBVpZECAYOC1TI4X55UGE1-QmdhXTcMmlCx4 1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                    <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px;">GALLAGHER ON CONFIDENCE FLOWING </h5>
+                    
+                    <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 50px; line-height: 116.7%;">Conor Gallagher believes his double in our come-from-behind victory at Crystal Palace will give him and Chelsea a huge boost for the remainder of the season.</p>
+                    <div class="row" style="margin-top: 50px;">
+                    <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 25px; margin-right: 50px; word-spacing: 10px;">13/2 | news</small></p>
+                </div>
+              </div> 
+            </div>
+        </div>
+            <div class="col md-6"> 
+                <div class="col md-6">
+                    <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 25px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                    <img src="images/1828545420.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                        <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px;">POCHETTINO ON JACKSON'S VERSATILITY</h5>
+                        
+                        <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 1px; line-height: 116.7%;">Mauricio Pochettino praised Nicolas Jackson’s flexibility with the forward able to be deployed in multiple positions to suit the needs of the team and system being employed by the head coach.</p>
+                        <div class="row" style="margin-top: 25px;">
+                        <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 25px; margin-right: 50px; word-spacing: 10px;">12/2 | news</small></p>
+                    </div>
+                  </div> 
+                </div>
+            </div>
+            </div>
+        
+    </div>
+    </div>
+    <div class="container">
+    <p>
+        
+      <button class="btn btn-default hide-me" data-toggle="collapse" data-target="#collapseExample" id="collapseExample" style="width:100px ; height: 35px; font-size: 13px; color: black; border-color: rgba(219, 161, 17, 1); border-radius: 12px; margin-top: 50px; margin-left: 625px; ">View More</button>
+        
+      </p>
+      <div class="collapse" id="collapseExample">
+        
+          
+    <div class="container">
+      <div class="card mb-3" style="width: 1200px; height: 750px; border-radius: 30px;  border-color: white; margin-left: 50px; margin-top: 100px; box-shadow:  30px 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="images/GOAL_-_Blank_WEB_-_Facebook_(25) 1.jpg"  >
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 30px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 125px; margin-top: 50px;">GALLAGHER PLEASED WITH IMPORTANT FA CUP VICTORY</h5>
+                
+                <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 35px ; margin-left: 50px; margin-top: 50px; margin-right: 100px; line-height: 41px;">Conor Gallagher was delighted to get off the mark with his first Chelsea goal of the season as the Blues powered to a 3-1 victory over Aston Villa in the FA Cup.</p>
+                <div class="row" style="margin-top: 100px;">
+                <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; padding-top: 50px; margin-right: 50px; word-spacing: 10px;">11/2 | news</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col md-6">
+                  <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 45px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                  <img src="images/20230108_FA_Cup_trophy 1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                      <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px;">FA CUP TICKET NEWS: LEEDS AT HOME</h5>
+                      
+                      <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 100px; line-height: 116.7%;">Ticket selling details have been announced for our Emirates FA Cup fifth-round tie at Stamford Bridge.</p>
+                      <div class="row" style="margin-top: 75px;">
+                      <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 50px; margin-right: 50px; word-spacing: 10px;">10/2 | news</small></p>
+                  </div>
+                </div> 
+              </div>
+          </div>
+          <div class="col md-6">
+              <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 25px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+              <img src="images/GOAL_-_Blank_WEB_-_Facebook.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                  <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 25px; margin-top: 25px;">PALMER NAMED CARBAO CUP PLAYER OF THE ROUND</h5>
+                  
+                  <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 100px; line-height: 116.7%;">Cole Palmer has been named the Carabao Cup semi-final Player of the Round after his two goals against Middlesbrough helped steer us back to Wembley.</p>
+                  <div class="row" style="margin-top: 25px;">
+                  <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; margin-top: -50px; margin-right: 50px; word-spacing: 10px;">9/2 | news</small></p>
+              </div>
+            </div> 
+          </div>
+      </div>
+          
+      </div>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col md-6">
+                  <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 45px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                  <img src="images/0_Malo-Gusto 2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                      <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 25px; margin-top: 25px;">GUSTO CALLS FOR CONTINUED IMPROVEMENT</h5>
+                      
+                      <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 25px; line-height: 116.7%;">Malo Gusto was delighted with the mentality and performance shown at Villa Park on Wednesday evening, but knows he and his Blues team-mates need to keep pushing across all three competitions.</p>
+                      <div class="row" style="margin-top: 25px;">
+                      <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 25px; margin-right: 50px; word-spacing: 10px;">8/2 | news</small></p>
+                  </div>
+                </div> 
+              </div>
+          </div>
+          <div class="col md-6">
+              <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 25px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+              <img src="images/GettyImages-1397049598 2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                  <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px;">DATE FOR FA CUP FIFTH ROUND TIE CONFIRMED</h5>
+                  
+                  <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 100px; line-height: 116.7%;">Chelsea will host Leeds United at Stamford Bridge in the FA Cup fifth round on Wednesday 28 February.</p>
+                  <div class="row" style="margin-top: 75px;">
+                  <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 50px; margin-right: 50px; word-spacing: 10px;">7/1 | news</small></p>
+              </div>
+            </div> 
+          </div>
+      </div>
+          
+      </div>
+      </div>
+      
+<div class="container">
+    <p>
+        
+      <button class="btn btn-default hide-me" data-toggle="collapse" data-target="#collapseExample1" id="collapseExample1" style="width:100px ; height: 35px; font-size: 13px; color: black; border-color: rgba(219, 161, 17, 1); border-radius: 12px; margin-top: 50px; margin-left: 625px; ">View More</button>
+        
+      </p>
+      <div class="collapse" id="collapseExample1">
+        
+       <div class="container">
+    <div class="card mb-3" style="width: 1200px; height: 750px; border-radius: 30px;  border-color: white; margin-left: 25px; margin-top: 100px; box-shadow:  30px 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img src="images/GOAL_-_Blank_WEB_-_Facebook_-_2023-12-22T093733 1.jpg"  >
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+              <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 30px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 50px;">PATIENT POCHETTINO BUILDING ONE STEP AT A TIME</h5>
+              
+              <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 35px ; margin-left: 50px; margin-top: 50px; margin-right: 50px; line-height: 41px;">Mauricio Pochettino remains convinced the talent within his Chelsea squad will come to the fore but says the players must be given the trust and time they need to mature as a team.</p>
+              <div class="row" style="margin-top: 150px;">
+              <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; padding-top: 50px; margin-right: 50px; word-spacing: 10px;">5/1 | news</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col md-6">
+                <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 25px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                <img src="images/1705078801745_74afc5ec-8c19-496e-bc9c-a1eb4e4b8061 1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                    <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px;">CHILWELL: NO EXCUSES</h5>
+                    
+                    <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 50px; margin-right: 90px; line-height: 116.7%;">Ben Chilwell accepted that Chelsea’s performance against Wolves yesterday wasn’t good enough and said there can be ‘no excuses’ for the home defeat.</p>
+                    <div class="row" style="margin-top: 25px;">
+                    <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 25px; margin-right: 50px; word-spacing: 10px;">4/1 | news</small></p>
+                </div>
+              </div> 
+            </div>
+        </div>
+            <div class="col md-6"> 
+                <div class="col md-6">
+                    <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 25px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                    <img src="images/3852563-78284188-2560-1440 1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                        <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px;">COLE TALKS KEEPING IT COOL IN MATCHDAY</h5>
+                        
+                        <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 1px; line-height: 116.7%;">Cole Palmer has given an exclusive interview to the matchday programme for our game against Wolves on Sunday, reflecting on his first half-season as a Chelsea player and the composure he has made his trademark.</p>
+                        <div class="row" style="margin-top: 25px;">
+                        <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 25px; margin-right: 50px; word-spacing: 10px;">4/1 | news</small></p>
+                    </div>
+                  </div> 
+                </div>
+            </div>
+            </div>
+        
+    </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col md-6">
+                
+            <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 25px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+              <img src="images/licensed-image 3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                  <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px;">POCHETTINO'S APOLOGY TO FANS AFTER WOLVES DEFEAT</h5>
+                  
+                  <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 1px; line-height: 116.7%;">Mauricio Pochettino has said sorry to the Chelsea supporters after his side's painful loss to Wolverhampton Wanderers at Stamford Bridge on Sunday afternoon.</p>
+                  <div class="row" style="margin-top: 25px;">
+                  <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 25px; margin-right: 50px; word-spacing: 10px;">4/1 | news</small></p>
+              </div>
+            </div> 
+          </div>
+        </div>
+            <div class="col md-6"> 
+                <div class="col md-6">
+                  <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 25px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                    <img src="images/licensed-image 2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                        <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px;">STERLING: ‘IT’S A GOOD CHANCE TO GET BACK’</h5>
+                        
+                        <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 100px; line-height: 116.7%;">Raheem Sterling believes that tomorrow’s game against Wolves presents a good opportunity to return to winning ways.</p>
+                        <div class="row" style="margin-top: 50px;">
+                        <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 50px; margin-right: 50px; word-spacing: 10px;">3/1 | news</small></p>
+                    </div>
+                  </div> 
+                </div>
+            </div>
+            </div>
+        
+    </div>
+    </div>   
+
+
+
+    <div class="container">
+      <p>
+          
+        <button class="btn btn-default hide-me" data-toggle="collapse" data-target="#collapseExample2" id="collapseExample2" style="width:100px ; height: 35px; font-size: 13px; color: black; border-color: rgba(219, 161, 17, 1); border-radius: 12px; margin-top: 50px; margin-left: 625px; ">View More</button>
+          
+        </p>
+        <div class="collapse" id="collapseExample2">
+          
+          <div class="container">
+            <div class="card mb-3" style="width: 1200px; height: 750px; border-radius: 30px;  border-color: white; margin-left: 50px; margin-top: 100px; box-shadow:  30px 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img src="images/christopher-nkunku-chelsea-looks-premier-876859138_55451e 1.jpg"  >
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 25px; border-width: 2px;">
+                      <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 30px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 125px; margin-top: 50px;">NKUNKU: WE NEED TO WORK MORE</h5>
+                      
+                      <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 35px ; margin-left: 50px; margin-top: 50px; margin-right: 100px; line-height: 41px;">Christopher Nkunku gave his honest assessment on a disappointing night as the Blues suffered a 4-1 defeat to Liverpool at Anfield.</p>
+                      <div class="row" style="margin-top: 225px;">
+                      <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; padding-top: 50px; margin-right: 50px; word-spacing: 10px;">3/1 | news</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col md-6">
+                        <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 10px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                        <img src="images/Broja_DAZ_0738 1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 45px; border-width: 2px;">
+                            <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px;">ARMANDO BROJA DEPARTS ON LOAN</h5>
+                            
+                            <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 100px; line-height: 116.7%;">Chelsea forward Armando Broja will spend the remainder of the 2023/24 campaign on loan at Fulham.</p>
+                            <div class="row" style="margin-top: 75px;">
+                            <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 50px; margin-right: 50px; word-spacing: 10px;">1/2 | news</small></p>
+                        </div>
+                      </div> 
+                    </div>
+                </div>
+                <div class="col md-6">
+                    <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 10px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                    <img src="images/images 2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 45px; border-width: 2px;">
+                        <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px;">ANDREY SANTOS COMPLETES LOAN MOVE</h5>
+                        
+                        <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 100px; line-height: 116.7%;">Chelsea midfielder Andrey Santos has joined French club RC Strasbourg on loan until the end of the season.</p>
+                        <div class="row" style="margin-top: 50px;">
+                        <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 50px; margin-right: 50px; word-spacing: 10px;">1/2 | news</small></p>
+                    </div>
+                  </div> 
+                </div>
+            </div>
+                
+            </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col md-6">
+                        <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 10px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                        <img src="images/GettyImages-1617420888.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 45px; border-width: 2px;">
+                            <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px;">CHUKWUEMEKA ON UPPING HIS FITNESS</h5>
+                            
+                            <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 25px; line-height: 116.7%;">While disappointed with our 4-1 reverse at Anfield last night, Carney Chukwuemeka was still pleased to earn further minutes on the pitch as he continues his recovery from a long-term knee injury.</p>
+                            <div class="row" style="margin-top: 25px;">
+                            <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 25px; margin-right: 50px; word-spacing: 10px;">1/1 | news</small></p>
+                        </div>
+                      </div> 
+                    </div>
+                </div>
+                <div class="col md-6">
+                    <div class="card" style="width: 575px; height: 750px; margin-top: 50px; margin-left: 15px; border-radius: 30px; border-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;">
+                    <img src="images/TELEMMGLPICT000341521156_16894232560800_trans_NvBQzQNjv4BqVnGZDHLVbaDWtLqzwQh5-TRD3vWcyS41OHqZ-GGYMKw.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <hr class="section-title-hr offset-md-1 " style="width: 150px; margin-top: 25px; margin-left: 50px; border-width: 2px;">
+                        <h5 class="card-title" style="color: rgba(3, 70, 148, 1); font-size: 25px; font-family: 'Dela Gothic One', sans-serif; margin-left: 50px; margin-right: 50px; margin-top: 25px;">CASADEI SQUAD NUMBER CONFIRMED</h5>
+                        
+                        <p class="card-text" style="font-family: 'Roboto', sans-serif; font-size: 24px ; margin-left: 50px; margin-top: 25px; margin-right: 100px; line-height: 116.7%;">Cesare Casadei will wear the number 31 shirt for Chelsea, having been named on the bench for the Blues against Liverpool tonight.</p>
+                        <div class="row" style="margin-top: 25px;">
+                        <p class="card-text"><small class="text-body-secondary" style="font-family: 'Roboto', sans-serif; font-size: 22px ; margin-left: 50px; padding-top: 50px; margin-right: 50px; word-spacing: 10px;">1/1 | news</small></p>
+                    </div>
+                  </div> 
+                </div>
+            </div>
+                
+            </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                  <div class="col">
+                    
+                      <div class="card text-bg-dark" style="width: 1300px; height: 750px; border-radius: 30px; color: white; border-color: white; transform: scale(1.0); margin-top: 50px;background-color: white;">
+                        
+                        <div class="embed-responsive embed-responsive-16by9">
+                          <iframe width="1300" height="750"  src="https://www.youtube.com/embed/2hDqnKzaGIY?si=8ofDzVAlqRqx_YSC&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 30px;"> </iframe>
+                        </div>
+                          <div class="card-img-overlay" style="margin-top: 600px; margin-left: 100px;">
+                            <h1 class="card-title"style=" font-size: 40px; font-family: 'Dela Gothic One', sans-serif;" >Carabao Cup Final | Chelsea Vs Liverpool </h1>
+                          </div>
+                        </div>
+                      
+                          
+                          
+      
+                      </div>
+                  </div>
+              </div>
+    
+          
+      </div>
+      </div>
+      
+      
+    </div>
+    </div>
+
+      
+    </div>
+    </div>
+  </div>
+    </body>
+
+      
+    
+    <div class="container">
+      <footer class="py-3 my-4" style="height: 60px;">
+        
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3" style="margin-top: 100px;">
+          <li class="nav-item" style="padding-left: 50px;"><a href="chelsea-site-homepg.html" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item" style="padding-left: 50px;"><a href="News.html" class="nav-link px-2 text-muted">News</a></li>
+          <li class="nav-item" style="padding-left: 50px;"><a href="Players.html" class="nav-link px-2 text-muted">Players</a></li>
+          <li class="nav-item" style="padding-left: 50px;"><a href="History.html" class="nav-link px-2 text-muted">History</a></li>
+          <li class="nav-item" style="padding-left: 50px;"><a href="Tickets.html" class="nav-link px-2 text-muted">Tickets</a></li>
+          
+          
+        </ul>
+        <div
+                class="d-flex flex-wrap justify-content-between align-items-center mx-auto py-4"
+                style="width: 80%"
+              >
+                <div class="d-flex flex-wrap align-items-center">
+                  <a href="/#" class="d-flex align-items-center p-0 text-dark">
+                    <img alt="logo" src="https://1000logos.net/wp-content/uploads/2016/11/Chelsea-Logo.png" width="50px" />
+                    <a class="ms-4 h5 mb-0 font-weight-bold" href="https://www.chelseafc.com/en">Chelsea FC</a>
+                  </a>
+                  <span
+                    style="
+                                  font-size: 3em;
+                                  margin: -2rem 0px -1.5rem 1rem;
+                                  color: #c4c4c4;
+                                "
+                    >&#8226;</span
+                  >
+                  <small class="ms-2">&copy; Chelsea FC, 2024. All rights reserved.</small>
+                </div>
+                <div>
+                  <button class="btn btn-dark btn-flat p-2">
+                    <i class="fa fa-facebook"></i>
+                  </button>
+                  <button class="btn btn-dark btn-flat p-2">
+                    <i class="fa fa-twitter"></i>
+                  </button>
+                  <button class="btn btn-dark btn-flat p-2">
+                    <i class="fa fa-instagram"></i>
+                  </button>
+                </div>
+              </div>
+      </footer>
+    </div>
+<script   src="https://code.jquery.com/jquery-3.7.1.slim.min.js"   integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="   crossorigin="anonymous"></script>
+<script>
+
+  $(function(){
+      // When a click happens in the menu and has been triggered
+      // by an element having the '.fa-close' applied to it.
+      $('#collapseExample').on('click', function(e){
+         // Remove the associated '.panel' element
+         $('#collapseExample').css("display", "none");
+      });
+  });
+       </script>
+
+       <script>
+
+  $(function(){
+      // When a click happens in the menu and has been triggered
+      // by an element having the '.fa-close' applied to it.
+      $('#collapseExample1').on('click', function(e){
+         // Remove the associated '.panel' element
+         $('#collapseExample1').css("display", "none");
+      });
+  });
+       </script>
+
+<script>
+
+  $(function(){
+      // When a click happens in the menu and has been triggered
+      // by an element having the '.fa-close' applied to it.
+      $('#collapseExample2').on('click', function(e){
+         // Remove the associated '.panel' element
+         $('#collapseExample2').css("display", "none");
+      });
+  });
+       </script>
+       <script>
+
+        $(function(){
+            // When a click happens in the menu and has been triggered
+            // by an element having the '.fa-close' applied to it.
+            $('#collapseExample3').on('click', function(e){
+               // Remove the associated '.panel' element
+               $('#collapseExample3').css("display", "none");
+            });
+        });
+             </script>
+    
+<script 
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+     crossorigin="anonymous"
+     ></script>    
+<script 
+     src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+     crossorigin="anonymous"
+     ></script>
+<script 
+     src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" 
+     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+     crossorigin="anonymous"
+     ></script>
+<script 
+     src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" 
+     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+     crossorigin="anonymous"
+     ></script>
+
+    
+</body>
+</html>

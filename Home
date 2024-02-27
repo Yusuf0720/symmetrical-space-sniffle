@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titan+One%3A400"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dela+Gothic+One%3A400"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Flex%3A400%2C500%2C700"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A200%2C300%2C400%2C500%2C700"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lalezar%3A400"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A200%2C300%2C400%2C700"/>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+         @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+      .banner{
+        background-image: url("images/Frame\ 1\ \(5\).jpg");
+	      height: 902px;
+        background-position: center;
+        
+      }
+      .banner1{
+        background-image: url("images/micah-boswell-OPnBJ5L2oxs-unsplash\ 2.jpg");
+	      height: 525px;
+        background-size: cover;
+        background-position: center;
+        
+        
+        
+      
+      }
+      .banner2{
+        background-image: url("images/Dream_Teams_Chelsea\ 1.jpg");
+	      height: 832px;
+        background-position: center;
+        
+      
+      }
+      
+      
+      .nav-item a {
+    color: white;
+    font-size: 20px;
+    font-family: "Inter";
+    }
+   
+    .navbar-nav {
+      margin-right:30px;
+    }
+   .navbar-nav > li{
+    padding-top:100px;
+    height: 250px;
+    padding-right:75px;
+}
+  .design{
+  color: white;
+  font-size: 134px;
+  font-family: "Lalezar";
+
+  
+}
+.design1{
+  color: white;
+  font-size: 96px;
+  font-family: "Roboto";
+  font-weight:100;
+  margin-top: -60px;
+  
+}
+
+.design2{
+  color: white;
+  font-size: 17px;
+  font-family: "Roboto";
+  height: 140px;
+  line-height: 117.6%;
+  width: 434px;
+  
+}
+.container{
+  padding-bottom: 100px;
+  
+}
+.btn btn-outline-primary{
+  margin-left: 675px;
+}
+.section-title-hr {
+  width: 48px;
+  height: 2px;
+  border: 1px solid rgb(3, 70, 148);
+  background-color: rgb(3, 70, 148);
+  display: block;
+  opacity: 1;
+  
+}
+.section-title-hr1 {
+  width: 48px;
+  height: 2px;
+  border: 1px solid rgba(219, 161, 17, 1);
+  background-color: rgba(219, 161, 17, 1);
+  display: block;
+  opacity: 1;
+  
+}
+.card{
+  transition: all 0.3s;
+}
+.card:hover{
+  transform: scale(1.10);
+}
+.nav-item{
+  transition: all 0.3s;
+}
+.nav-item:hover{
+  transform: scale(1.30);
+}
+
+
+
+    </style>
+   
+  </head>
+  <body>
+    <div class="banner">
+      <div class="container">
+        <div class="row justify-content-center align-items-center ">
+            <div class="col">
+              <div class="card" style="transform: scale(1.0);">
+              
+                
+                    
+                    <div class="card-img-overlay col-md-5 offset-md-6" >
+                      <nav class="navbar navbar-expand-sm   ">
+                        <div class="container-fluid ">
+                          <ul class="navbar-nav ">
+                            <li class="nav-item">
+                              <a class="nav-link"style="color:rgba(219, 161, 17, 1) ;" href="Home">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" style="color:white;" href="News">NEWS</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" style="color:white;" href="Players">PLAYERS</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" style="color:white;" href="History">HISTORY</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+                      <div class="box">
+                      <h1 class="design">CHELSEA</h1>
+                      <h1 class="design1">FC!</h1>
+                      <p class="design2">Welcome to the heart of Chelsea passion! Our website is dedicated to celebrating the spirit of the Blues, providing you with the latest updates, news, and an immersive experience into the world of Chelsea FC. Join us in supporting the pride of Stamford Bridge as we journey through victories, challenges, and the unwavering bond that ties us together.</p>
+                      </div>
+                  
+                      <a type="button" class="btn btn-primary" style="border-radius: 33px; border-color:rgba(3, 70, 148, 1) ; background-color: rgba(3, 70, 148, 1); font-size: 15px; font-family: Roboto; width: 143px; height: 37px;" href="News.html">Get Started</a>
+                      <button type="button" class="btn btn-outline-primary disabled " style="border-color:rgba(3, 70, 148, 1) ; border-radius: 33px; font-size: 15px; font-family: Roboto; width: 143px; height: 37px; color: white;">Read More</button>
+                   
+                  </div>
+                  </div>
+                
+                    
+                    
+      
+                </div>
+            </div>
+        </div>
+      </div>
+      
+    
+  <div class="container ">
+    <div class="row">
+      <div class="col">
+        <div class="row justify-content-center align-items-center">
+        <h1 style="font-size: 30PX; font-family:Roboto; margin-top: 150px;" class="text-center">News</h1>
+        <hr class="section-title-hr">
+      
+        </div>
+        <div class="container m-5">
+          <div class="row"> 
+            <div class="col md-6">
+              <div wonderingv class="card" style="width: 510px; height: 509px; border-color:rgba(3, 70, 148, 1); margin-left: 120px; border-radius: 0px; box-shadow:  30px 6px 20px 0 rgba(0, 0, 0, 0.19); border-width: 2px;" > 
+                <img src="images/carabao-cup-trophy-draw 1.jpg" class="card-img-top" alt="..." style="border-radius: 0px;">
+                <div class="card-body">
+                  <p class="card-text" style="font-family: Roboto;font-size: 20px;">
+                    Pochettino: 'Now it is about winning'</p>
+                <div style="margin-top: -10px;">
+                    <img src="images/man-looking-attractive 1.jpg" class="rounded" alt="..." style="float: left;">
+                    <p style="font-family: Roboto;font-size: 13px;float: left;padding-left: 10px;">By Ben Moss</p>
+                  </div>
+                  <div>
+                    <img src="images/image 1.png" class="rounded" alt="..." style="float: left; padding-left: 80px;">
+                    <p style="font-family: Roboto;font-size: 13px;float: left;padding-left: 10px;">2 hrs ago</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col md-6" style="float: left;"> 
+              <div wonderingv class="card" style="width: 361px; height: 239px; border-color:rgba(3, 70, 148, 1); border-radius: 0px; box-shadow:  30px 6px 20px 0 rgba(0, 0, 0, 0.19); border-width: 2px;"> 
+                <img src="images/chelsea_d 1.jpg" class="card-img-top" alt="..." style="border-radius: 0px;">
+                <div class="card-body">
+                  <p class="card-text" style="font-family: Roboto;font-size: 20px; margin-top: -5px;">Disasi Determined To Keep Pushing</p>
+                <div style="margin-top: -10px;">
+                    <img src="images/images-1 1.png" class="rounded" alt="..." style="float: left;">
+                    <p style="font-family: Roboto;font-size: 13px;float: left;padding-left: 10px;">By David Ostrin</p>
+                  </div>
+                  <div>
+                    <img src="images/image 1.png" class="rounded" alt="..." style="float: left; padding-left: 30px;">
+                    <p style="font-family: Roboto;font-size: 13px;float: left;padding-left: 10px;">5 hrs ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col md-6" style="padding-top: 20px;">
+                <div wonderingv class="card" style="width: 361px; height: 247px; border-color:rgba(3, 70, 148, 1); border-radius: 0px; box-shadow:  30px 6px 20px 0 rgba(0, 0, 0, 0.19); border-width: 2px;"> 
+                  <img src="images/licensed-image 5.jpg" class="card-img-top" alt="..." style="border-radius: 0px;">
+                  <div class="card-body">
+                    <p class="card-text" style="font-family: Roboto;font-size: 20px;">Petrovic Pleased To Play His Role</p>
+                  <div style="margin-top: -10px;">
+                      <img src="images/images-2 1.png" class="rounded" alt="..." style="float: left;">
+                      <p style="font-family: Roboto;font-size: 13px;float: left;padding-left: 10px;">By Haris Lee</p>
+                    </div>
+                    <div>
+                      <img src="images/image 1.png" class="rounded" alt="..." style="float: left; padding-left: 30px;">
+                      <p style="font-family: Roboto;font-size: 13px;float: left;padding-left: 10px;">23 hrs ago</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 offset-md-5" style="padding-top: 50px; color: rgba(3, 70, 148, 1); ">
+            
+            <a type="button" class="btn btn-outline-primary " style="width:100px ; height: 35px; font-size: 13px; color: black; border-color: rgba(3, 70, 148, 1); border-radius: 12px; border-width: 2px; background-color: white; " href="News">Learn More</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+
+  
+  
+  <div class="banner1">
+  <div class="container">
+    <div class="row">
+      
+        <div class="col">
+          <h1 style="padding-top: 30px; font-family: 'Dela Gothic One', sans-serif; color: white; font-size: 75px; font-weight: 900; margin: auto; margin-left: -25px;" class="text-center"> Fixtures</h1>
+        </div>
+      
+    </div>
+    <div class="row" style="padding-top: 30px;">
+      <div class="col md-4 ">
+        
+        <div class="card" style="width: 400px; height: 250px; border-radius: 15px; box-shadow:  30px 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+          <h1 style="padding-top: 30px;padding-left: 100px; color:black; font-size: 25px; font-family: 'Roboto', sans-serif; font-weight: 500;">MON 12 FEB 2024</h1>
+          <h2 style="padding-top: -30px;padding-left: 130px; color:rgba(64, 64, 64, 1); font-size: 18px; font-family: 'Roboto', sans-serif; ">PREMIER LEAGUE</h2>
+          <div class="row">
+        <div class="class">
+          <img src="images/Group 16 (1).jpg" alt="" style="margin-left: 0px; margin-top: -10px;">
+          <img src="images/Chelsea Logo.jpg" alt="" style="padding-left: 175px; margin-top: -10px;">
+        </div>
+        
+          <div class="card offset-md-4" style="width: 150px; height: 75px; border-color: black; margin-top: -110px; border-radius: 0px;">
+            <h1 class="offset-md-3" style="font-size: 40px; font-family: 'Roboto', sans-serif; color: rgb(3, 70, 148); padding-top: 15px; margin-left: 35px;"> 1-3 </h1>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+      <div class="col md-4 ">
+        
+        <div class="card" style="width: 400px; height: 250px; border-radius: 15px; box-shadow:  30px 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+          <h1 style="padding-top: 30px;padding-left: 100px; color:black; font-size: 25px; font-family: 'Roboto', sans-serif; font-weight: 500;">SAT 17 FEB 2024</h1>
+          <h2 style="padding-top: -30px;padding-left: 130px; color:rgba(64, 64, 64, 1); font-size: 18px; font-family: 'Roboto', sans-serif; ">PREMIER LEAGUE</h2>
+          <div class="row">
+        <div class="class">
+          <img src="images/Group 66.jpg" alt="" style="margin-left: 25px; margin-top: 10px;">
+          <img src="images/Chelsea Logo.jpg" alt="" style="padding-left: 185px; margin-top: 10px;">
+        </div>
+        
+          <div class="card offset-md-4" style="width: 150px; height: 75px; border-color: black; margin-top: -85px; border-radius: 0px;">
+            <h1 class="offset-md-3" style="font-size: 40px; font-family: 'Roboto', sans-serif; color: rgb(3, 70, 148); padding-top: 15px; margin-left: 35px;"> 1-1 </h1>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+      
+      <div class="col md-4 ">
+        
+        <div class="card" style="width: 400px; height: 250px; border-radius: 15px; box-shadow:  30px 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+          <h1 style="padding-top: 30px;padding-left: 100px; color:black; font-size: 25px; font-family: 'Roboto', sans-serif; font-weight: 500;">SUN 25 FEB 2024</h1>
+          <h2 style="padding-top: -30px;padding-left: 140px; color:rgba(64, 64, 64, 1); font-size: 18px; font-family: 'Roboto', sans-serif; ">EFL CUP FINAL</h2>
+          <div class="row">
+        <div class="class">
+          <img src="images/Group 10 copy.jpg" alt="" style="margin-left: 20px; margin-top: 5px;">
+          <img src="images/Chelsea Logo.jpg" alt="" style="padding-left: 175px; margin-top: 10px;">
+        </div>
+        
+          <div class="card offset-md-4" style="width: 150px; height: 75px; border-color: black; margin-top: -100px; border-radius: 0px;">
+            <h1 class="offset-md-3" style="font-size: 30px; font-family: 'Roboto', sans-serif; color: rgb(3, 70, 148); padding-top: 18px; margin-left: 25px;"> 15:00 </h1>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center" style="padding-top: 50px; color: rgb(255, 255, 255);">
+        
+        <a type="button" class="btn btn-outline-primary " style="width:100px ; height: 35px; font-size: 13px; color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-radius: 12px; border-width: 2px; " href="Tickets">Book Now</a>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    
+    
+    
+    
+    <div class="container " >
+      <div class="row g-0" >
+        <div class="col" >
+          <div class="row justify-content-center align-items-center" >
+            <h1 style="font-size: 30PX; font-family:Roboto; margin-top: 100px;" class="text-center">Coaches & Players</h1>
+            <hr class="section-title-hr" style="width: 100px; margin-top: 10px;">
+            <p style="font-family: Roboto; font-size: 17px; padding-left: 250px; padding-right: 250px; text-align: center; margin-top: 10px; line-height: 116%;">Welcome to the heart of Chelsea FC, where talent and leadership converge to create a legacy of excellence. Our distinguished coaches and players embody the spirit of the Blues, contributing their skill, passion, and dedication to the success of the club.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col md-3 border-right">
+        <div class="card" style="border-color: white; ">
+          
+          <img src="images/Group 17.jpg" alt="" style="padding-top: 75px;">
+          <p style="font-family: Roboto; font-size: 20px; color: black; padding-left: 60px;">Mauricio Pochettino</p>
+          <p style="font-family: Roboto; font-size: 20px; color: rgba(3, 70, 148, 1); padding-left: 85px; margin-top: -15px;">Head Coach</p>
+        </div>
+      </div>
+      <div class="col md-3">
+        <div class="card" style="border-color: white; height: 100px;">
+          <img src="images/Group 18.jpg" alt="" style="padding-top: 75px;">
+          <p style="font-family: Roboto; font-size: 20px; color: black; padding-left: 80px;">Jesus Perez</p>
+          <p style="font-family: Roboto; font-size: 20px; color: rgba(3, 70, 148, 1); padding-left: 45px; margin-top: -15px;">Assistant Head Coach</p>
+        </div>
+      </div>
+      <div class="col md-3">
+        <div  class="card" style="border-color: white; height: 100px;">
+          <img src="images/Group 19.jpg" alt="" style="padding-top: 75px;">
+          <p style="font-family: Roboto; font-size: 20px; color: black; padding-left: 75px;">Reece James</p>
+          <p style="font-family: Roboto; font-size: 20px; color: rgba(3, 70, 148, 1); padding-left: 110px; margin-top: -15px;">Player</p>
+        </div>
+      </div>
+      <div class="col md-3">
+        <div class="card" style="border-color: white; height: 100px;">
+          <img src="images/Group 20.jpg" alt="" style="padding-top: 75px;">
+          <p style="font-family: Roboto; font-size: 20px; color: black; padding-left: 90px;">Levi Colwill</p>
+          <p style="font-family: Roboto; font-size: 20px; color: rgba(3, 70, 148, 1); padding-left: 110px; margin-top: -15px;">Player</p>
+        </div>
+      </div>
+    </div>
+    
+    
+  
+</div>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 offset-md-5" style="padding-top: 50px; color: rgba(3, 70, 148, 1); padding-left: 75px; margin-top: -100px;">
+          
+      <a type="button" class="btn btn-outline-primary " style="width:100px ; height: 35px; font-size: 13px; color: black; border-color: rgba(3, 70, 148, 1); border-radius: 12px; border-width: 2px; background-color: white;" href="Players">View More</a>
+    </div>
+  </div>
+</div>
+
+<div class="banner2">
+<div class="container">
+  <div class="row justify-content-center align-items-center">
+      <div class="col">
+        
+          <div class="card" style="transform: scale(1.0);">
+              
+              <div class="card-img-overlay" style="margin-top: 75px;">
+              <h1 style="font-size: 96PX; font-family: 'Dela Gothic One', sans-serif; margin-top: 500px; color: white; margin: auto;" class="text-center">History</h1>
+              <hr class="section-title-hr1" style="width: 150px; margin-top: 250px; color: rgba(219, 161, 17, 1); margin:auto; margin-top: 25px;"> 
+              <p style="font-size: 25px; font-family: Roboto; color: white; text-align: center;  padding-top: 50px; line-height: 116%; width: 830px; height: 348px; margin: auto; margin-top: 20px;">Welcome to the Chelsea FC History Page, where the journey of this iconic football club unfolds through the annals of time. Established in 1905, Chelsea FC has evolved into a powerhouse, etching its indelible mark on the footballing world. From the humble beginnings at Stamford Bridge to the grand triumphs on both domestic and international stages, our history is a tapestry woven with passion, dedication, and a relentless pursuit of excellence. The iconic blue colors symbolize not just a team but a community of fans united by a shared love for the beautiful game. Explore the pivotal moments, legendary players, and historic victories that have shaped Chelsea FC into the extraordinary institution it is today. Join us on a journey through time, celebrating the rich heritage that fuels our continued commitment to success. <b>Up the Blues!</b></p>
+              <div class="row justify-content-center" style="padding-top: 10px; color: rgba(3, 70, 148, 1);">
+            
+                <a type="button" class="btn btn-outline-primary " style="width:100px ; height: 35px; font-size: 13px; color: white; border-color: rgba(219, 161, 17, 1); border-radius: 12px; margin-top: 100px;" href="History" >Learn More</a>
+              </div>
+            </div>
+            </div>
+          
+              
+              
+
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <footer class="py-3 my-4" style="height: 60px;">
+    
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3" style="margin-top: 100px;">
+      <li class="nav-item" style="padding-left: 50px;"><a href="Home" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item" style="padding-left: 50px;"><a href="News" class="nav-link px-2 text-muted">News</a></li>
+      <li class="nav-item" style="padding-left: 50px;"><a href="Players" class="nav-link px-2 text-muted">Players</a></li>
+      <li class="nav-item" style="padding-left: 50px;"><a href="History" class="nav-link px-2 text-muted">History</a></li>
+      <li class="nav-item" style="padding-left: 50px;"><a href="Tickets" class="nav-link px-2 text-muted">Tickets</a></li>
+      
+      
+    </ul>
+    <div
+            class="d-flex flex-wrap justify-content-between align-items-center mx-auto py-4"
+            style="width: 80%"
+          >
+            <div class="d-flex flex-wrap align-items-center">
+              <a href="/#" class="d-flex align-items-center p-0 text-dark">
+                <img alt="logo" src="https://1000logos.net/wp-content/uploads/2016/11/Chelsea-Logo.png" width="50px" />
+                <a class="ms-4 h5 mb-0 font-weight-bold" href="https://www.chelseafc.com/en">Chelsea FC</a>
+              </a>
+              <span
+                style="
+                              font-size: 3em;
+                              margin: -2rem 0px -1.5rem 1rem;
+                              color: #c4c4c4;
+                            "
+                >&#8226;</span
+              >
+              <small class="ms-2">&copy; Chelsea FC, 2024. All rights reserved.</small>
+            </div>
+            <div>
+              <button class="btn btn-dark btn-flat p-2">
+                <i class="fa fa-facebook"></i>
+              </button>
+              <button class="btn btn-dark btn-flat p-2">
+                <i class="fa fa-twitter"></i>
+              </button>
+              <button class="btn btn-dark btn-flat p-2">
+                <i class="fa fa-instagram"></i>
+              </button>
+            </div>
+          </div>
+  </footer>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
+    crossorigin="anonymous"
+  ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
+integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" 
+crossorigin="anonymous"
+></script>
+  </body>
+</html>
